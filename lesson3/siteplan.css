@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Asar&family=Autour+One&family=Cinzel:wght@900&family=Didact+Gothic&family=Fuzzy+Bubbles:wght@700&family=Merriweather:wght@300&family=Permanent+Marker&family=Rubik+Beastly&display=swap');
+html {
+  ;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color:azure;
+  padding: 1em;
+}
+img {
+  max-width: 100%;
+}
+h1, h2, h3, h4, h5  {
+  font-family: 'Cinzel', serif;
+  color:whitesmoke ;
+  
+}
+h3, h4, h5{
+color: #000;;
+}
+
+h1{
+  font-size: 48px; 
+  font-weight:bold ;
+  background-color: rgb(2, 2, 78);
+  
+}
+
+h2{
+  font-size: 40px; 
+  font-weight:bold;
+  background-color: rgb(2, 2, 78);
+  padding: 2px;
+}
+
+h3{
+  font-size: 32px; 
+  font-weight:bold ;
+  
+}
+
+h4{
+  font-size: 24px; 
+  font-weight:bold 
+  
+}
+
+h5{
+  font-size: 16px; 
+  font-weight:bold
+  
+}
+
+h6{
+  font-size: 12px; 
+  font-weight:bold 
+  
+}
+
+
+
+header {
+  
+  font-family:"Permanent Marker", sans-serif;
+  text-align: center;
+}
+  
+  
+
+
+p {
+  font-size:16px;
+  font-family: 'Didact Gothic', sans-serif;
+  color:#66008b;
+}
+
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #999;
+}
+.colors td{
+  width: 25%;
+  height: 3em;
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2{
+  background-color: var(--accent2-color);
+}
+
+p.colored {
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
+}
+
+header{
+  display:grid;
+  width:1000px;
+  grid-template-columns:110px auto;
+  align-items: center;
+}
+
+.logo{
+  grid-column:1/2;
+  width:200px
+  
+}
+
+nav ul{
+  list-style:none;
+  margin:0 auto;
+  display: grid;
+grid-column: 2/2;
+}
+
+ 
+@media screen and (min-width: 800px) {
+  /* Large */
+content{
+width:100%
+}
+  
+
+@media only screen and (min-width: 32.5em) {
+      /* Medium */
+
+content{
+     width:100%}
+
+
+}
+
+
+
+  
+          
