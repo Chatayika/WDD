@@ -125,8 +125,13 @@ header{
 nav ul{
   list-style:none;
   margin:0 auto;
-  display: grid;
+  display: flex;
 grid-column: 2/2;
+
+}
+
+nav ul li a{
+  margin: 0 10px;
 }
 
  

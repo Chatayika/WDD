@@ -1,0 +1,54 @@
+
+  content{
+  width:100%
+  }
+    
+  
+
+html{
+  width: 100%;  
+}
+nav-button{
+    margin: 2 rem 2vw;
+    background: transparent;
+    border:none;
+    font-size: 2 rem;
+    color: #555;
+}
+
+html{
+    -webkit-text-size-adjust: 100%;-ms-text-size-adjust: auto;
+}
+*{-moz-box-sizing: border-box; -webkit-box-sizing: inherit;}
+
+nav{
+    background-color:azure;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+
+}
+nav ul.open{display:block} 
+
+nav ul li a{
+    display:block;
+    padding: 0.8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 8rem;
+
+}
+
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+ #hamburgerBtn span:nth-child(1){display:block}
+ #hamburgerBtn span:nth-child(2){display:none}
+
+ #hamburgerBtn open span:nth-child(1){display:none}
+ #hamburgerBtn open span:nth-child(2){display:block}
