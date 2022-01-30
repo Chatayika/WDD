@@ -1,20 +1,5 @@
 
-  content{
-  width:100%
-  }
-    
-  
 
-html{
-  width: 100%;  
-}
-nav-button{
-    margin: 2 rem 2vw;
-    background: transparent;
-    border:none;
-    font-size: 2 rem;
-    color: #555;
-}
 
 html{
     -webkit-text-size-adjust: 100%;-ms-text-size-adjust: auto;
@@ -23,6 +8,14 @@ html{
 
 nav{
     background-color:azure;
+}
+
+nav-button{
+    margin: 2 rem 2vw;
+    background: transparent;
+    border:none;
+    font-size: 2 rem;
+    color: #555;
 }
 
 nav ul{
