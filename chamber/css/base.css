@@ -3,18 +3,19 @@
 
 html{
     -webkit-text-size-adjust: 100%;-ms-text-size-adjust: auto;
+    background-color: azure;
 }
 *{-moz-box-sizing: border-box; -webkit-box-sizing: inherit;}
 
 nav{
-    background-color:azure;
+    background-color:#ccc;
 }
 
 nav-button{
-    margin: 2 rem 2vw;
+    margin: 2rem 2vw;
     background: transparent;
     border:none;
-    font-size: 2 rem;
+    font-size: 2rem;
     color: #555;
 }
 
