@@ -1,9 +1,9 @@
 const hamburger = document.querySelector("#hamburger")
 const nav = document.querySelector("nav ul") 
 
-hamburger.addEventListener("click", toggleMenu)
 
-hamburger.onclick=function toggleMenu(){
+
+hamburger.onclick=()=>{
     document.getElementsByClassName("nav")[0].classList.toggle("responsive")
     document.getElementById("#hamburger").style.display. visibility=hidden;
     document.getElementById("#hamburger").style.display. position=absolute; 
@@ -11,6 +11,7 @@ hamburger.onclick=function toggleMenu(){
     document.getElementById("#hamburger").style.display. top=0; 
     document.getElementById("#hamburger").style.display. content= "❌ " ; 
 }
+
 date= new Date()
 let dayOfWeek= date.getDay()
 
@@ -19,7 +20,7 @@ if (dayOfWeek==1 && dayOfWeek == 2){
     banner.textContent="🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
     header.appendChild(banner) 
 }
-else{ document.createElement("div")=""}
+else{banner=""}
 
 
 

@@ -11,9 +11,6 @@
 }
 img{margin:2px}
 
-.responsive li{
-    display:block;
-}
 
 nav ul li a{
     text-decoration: none;
@@ -30,7 +27,9 @@ nav ul li{
     
  
 }
-
+main{
+    width:100%
+}
 
 
 
