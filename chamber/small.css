@@ -1,0 +1,37 @@
+*{
+    background-color: azure;
+    
+}
+
+
+
+#hamburger{
+    border:0;
+    font-size: 2rem;
+}
+img{margin:2px}
+
+.responsive li{
+    display:block;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+nav li a:hover{
+    text-shadow: 5px;
+    text-decoration-color: blueviolet;
+    text-size-adjust: 2rem;
+    text-transform: uppercase;
+}
+
+nav ul li{
+    flex-direction: column;
+    
+ 
+}
+
+
+
+
+
