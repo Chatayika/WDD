@@ -28,15 +28,19 @@ border-bottom: 1px solid black;
 font-weight: bold;
 font-family: "IM Fell French Canon SC" serif;
 font-size: 32px;
-  
 }
 
+
+
 .nav ul{
-    margin: 0 auto;
-    text-align: center;
+    text-align: left;
     font-family: "IM Fell French Canon SC" serif;
     font-size: 20px;
+    
+    
+    
 }
+
 
 .last-paragraph {
     border-top: 1px solid black;
