@@ -1,22 +1,33 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: azure;
+    background-color:azure;
     box-sizing: border-box;
     
 }
 header{
-    width: 100%;  
+    width: 100%;
+    border:1px solid;
+    padding:5px;
+    box-shadow: 5px 5px 5px 5px rgb(2, 2, 78);
+    margin:20px
+ 
 }
-
+button{
+    padding:20px;
+    color:aliceblue;
+    background-color: rgb(2, 2, 78);
+    margin:150px;
+    border: 10px;
+    border-radius: 10px;
+}
 
 #hamburger{
     border:0;
     font-size: 2rem;
+    margin-left: auto;
+
 }
-
-
-
 
 
 #hamburger:hover {
@@ -40,14 +51,13 @@ nav ul li a{
 }
 .responsive a:hover {
     background-color: aqua;
+    margin-left: 10px;
+    transition:300ms ;
     
 }
 
 nav li a:hover{
-    text-shadow: 5px;
     text-decoration-color: blueviolet;
-    text-size-adjust:                                                                         
-    ';ljk ;
     text-transform: uppercase;
     display: block;
 }
@@ -59,15 +69,31 @@ nav ul li{
 }
 main{
     width:100%;
-    border: 20px 2px 20px 2px;
     margin:2px;
     padding:5px;
     
 }
+.intro,.one,.two, .three, .four, .five, .six, .seven{
+    border:1px solid;
+    box-shadow: 5px 5px 5px 5px ;
+    padding:10px
+}
+
+.intro{
+    background-image: url(images/hero.jpg);
+}
 
 footer {
-    width: 100%;
+    text-align: center;
+    border:1px solid;
+    padding:5px;
+    box-shadow: 5px 5px 5px 5px rgb(2, 2, 78);
+    margin:20px
+
 }
+
+
+
 
 
 
