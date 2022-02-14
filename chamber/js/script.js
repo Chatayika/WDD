@@ -7,12 +7,14 @@ hamburger.addEventListener("click", () => {
 date= new Date()
 let dayOfWeek= date.getDay()
 
-if (dayOfWeek==1 && dayOfWeek == 2){
+if (dayOfWeek==1 & dayOfWeek == 2){
     document.createElement("div")=banner
     banner.textContent="🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
     header.appendChild(banner) 
 }
-else{banner =""}
+else{
+    banner.textContent.style.display = "none"
+}
 
 
 

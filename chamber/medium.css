@@ -9,12 +9,6 @@
        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
        grid-gap:20px;
   }
-      
-.intro{
-      grid-column: 1/3;
-      grid-row: 1/2;
-      background-image: url(images/hero2.jpg);
-}
 
 
 .four{

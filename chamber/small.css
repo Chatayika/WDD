@@ -8,19 +8,27 @@
 header{
     width: 100%;
     border:1px solid;
-    padding:5px;
     box-shadow: 5px 5px 5px 5px rgb(2, 2, 78);
-    margin:20px
+    margin: 10px;
+    
  
 }
+img{
+    position: relative;
+}
 button{
-    padding:20px;
+    position:absolute;
+    padding:10px;
     color:aliceblue;
     background-color: rgb(2, 2, 78);
-    margin:150px;
     border: 10px;
     border-radius: 10px;
+    z-index: 1;
+    margin-bottom: -150px;
+
+
 }
+
 
 #hamburger{
     border:0;
@@ -69,18 +77,14 @@ nav ul li{
 }
 main{
     width:100%;
-    margin:2px;
-    padding:5px;
+    text-align: center;
     
 }
-.intro,.one,.two, .three, .four, .five, .six, .seven{
+.one,.two, .three, .four, .five, .six, .seven{
     border:1px solid;
     box-shadow: 5px 5px 5px 5px ;
-    padding:10px
-}
-
-.intro{
-    background-image: url(images/hero.jpg);
+    padding:5px;
+    
 }
 
 footer {
