@@ -4,26 +4,8 @@
   
  
 
-  header{display:flex}
-  nav ul {
-   list-style: none;
-   display: flex; 
-   flex: 1 1 100%;
-   
-   
   
-  }
   
-  nav ul li a{
-    padding:2rem;
-    display:flex;
-    flex-direction: row;
-  } 
-      
-  
-#hamburger{
-  display: none;
-}
 
 main
 {height: auto;
@@ -80,15 +62,6 @@ grid-gap:20px
   display: block;
 }
     
-
-
-header{display:flex}
-nav ul {
-list-style: none;
-display: flex; 
-flex: 1 1 100%;
-}
-
 
 main{
   padding:0px 10px 0px 10px
