@@ -5,22 +5,12 @@
     padding: 0;
     background-color:azure;
     box-sizing: border-box;
-    
 }
-header{
-    width: 100%;
-    border:1px solid;
-    box-shadow: 5px 5px 5px 5px rgb(2, 2, 78);
-    margin: 10px;
-    align-items: center;
-    justify-content: space-around;
-    padding:10px;
-    display: flex;
 
     
-}
+
 .logo {
-    border-radius: 100px;
+    border-radius: 20px;
     
 }
 .banner{

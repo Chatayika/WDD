@@ -10,8 +10,7 @@ date= new Date();
 const header = document.querySelector("header")
 const para = document.createElement("p")
 para.innerHTML=date
-header.appendChild(para).style.marginBottom="-150px"
-header.appendChild(para).style.marginLeft="2rem"
+header.appendChild(para)
 
 
 
