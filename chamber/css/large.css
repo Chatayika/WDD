@@ -24,7 +24,10 @@ width:100%;
 display:grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr;
-grid-gap:20px
+grid-gap:20px;
+padding-left: 40px;
+padding-right: 40px;
+
 }
 
 
@@ -71,11 +74,6 @@ grid-gap:20px
   grid-column: 4/5;
   grid-row: 3/4;
   display: block;
-}
-    
-
-main{
-  padding:0px 20px 0px 10px
 }
 
 
