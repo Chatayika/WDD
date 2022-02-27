@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <form action="thank you.html" method = "get" autocomplete ="on">
+        <fieldset>
+            <legend>Applicant Information</legend>
+        <label for = "fname">First Name*</label><br>
+        <input type="text" id = "fname" name="fname" required ><br>
+        <label for="lname">Last Name*</label><br>
+        <input type= "text" id="lname"  name ="lname" required><br>
+        <label for = "business_title">Business Position</label><br>
+        <input type="text" id="business_title" name ="business_title" minlength="7" pattern =[A-Za-z0-9_]{7}><br>
+        <label for ="email">Email*</label><br>
+        <input type="email" id="email" name="email" placeholder="example.outlook.com" required><br>
+        <label for="phone">Phone*</label><br>
+        <input type = "tel" id ="phone" name="phone" required><br>
+        <label for="title">Title*</label><br>
+        <input type="text" id="title"  name="title" required>
+        </fieldset>
+        <fieldset class="members">
+            
+        <legend>Membership level</legend>
+        
+        <label for ="np">NP Membership <input type = "radio" id ="np" name="membership_level value="NP"></label>
+       <label for ="bronze">Bronze<input type = "radio" id ="bronze" name = "membership_level" value="Bronze"></label>
+       <label for ="silver">Silver <input type = "radio" id ="silver" name = "membership_level"  value="Silver"></label>
+        <label for="gold">Gold<input type = "radio" id ="gold" name ="membership_level" value="Gold"></label>
+        </fieldset>
+        <fieldset>
+        <legend>Business Description</legend>
+        <textarea name= "business_description" rows= "10" cols ="30"></textarea> 
+        <input type="hidden"  id =" date_time"   name =" date"  value=" date_time"
+        </fieldset>
+
+        <input type = "submit" value= "Join">
+    </form>
+</body>
+</html>
