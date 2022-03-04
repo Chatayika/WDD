@@ -17,7 +17,8 @@
         <label for="lname">Last Name*</label><br>
         <input type= "text" id="lname"  name ="lname" required><br>
         <label for = "business_title">Business Position</label><br>
-        <input type="text" id="business_title" name ="business_title" minlength="7" pattern =[A-Za-z0-9_]{7}><br>
+        <input type="text" id="business_title" name ="business_title" minlength="7" pattern =/^[-\s\da-zA-Z]{7}
+        ><br>
         <label for ="email">Email*</label><br>
         <input type="email" id="email" name="email" placeholder="example.outlook.com" required><br>
         <label for="phone">Phone*</label><br>

@@ -1,0 +1,22 @@
+ *{
+     background-color: azure;
+ }
+
+ main div{
+     width:100%;
+     display:grid;
+     grid-gap: 10px;
+
+ }
+
+ @media only screen and (min-width: 600px) {
+    main div {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 830px) {
+    main div {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
