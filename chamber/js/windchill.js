@@ -1,6 +1,6 @@
-const wind = document.querySelector(".wind-speed").innerHTML;
-const temperature = document.querySelector(".temperature").innerHTML;
-const wind_chill = document.querySelector(".wind-chill");
+let wind = document.querySelector(".wind-speed").innerHTML;
+let temperature = document.querySelector(".temperature").innerHTML;
+let wind_chill = document.querySelector(".wind-chill");
 console.log(temperature);
 console.log(wind);
 

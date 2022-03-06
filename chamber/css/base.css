@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Asar&family=Autour+One&family=Cinzel:wght@900&family=Didact+Gothic&family=Fuzzy+Bubbles:wght@700&family=Merriweather:wght@300&family=Noto+Sans+Display:wght@700&family=Permanent+Marker&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asar&family=Autour+One&family=Cinzel:wght@900&family=Didact+Gothic&family=Fuzzy+Bubbles:wght@700&family=Merriweather:wght@300&family=Permanent+Marker&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+ @import url('https://fonts.googleapis.com/css2?family =Merriweather');
 
 *{
     margin: 0;
@@ -7,7 +9,14 @@
     box-sizing: border-box;
 }
 
-    
+h1,h3{
+    font-family: "IM Fell French Canon SC"serif;  
+}
+
+ p{
+    font-family: "IM Fell French Canon SC"serif;
+    font-size: 16px; 
+ }   
 
 .logo {
     border-radius: 40px;

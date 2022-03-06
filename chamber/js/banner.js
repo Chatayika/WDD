@@ -8,24 +8,18 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
 
 
 date= new Date()
+const showdate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(date);
 const header = document.querySelector("h1")
 const para = document.createElement("p")
-para.innerHTML=date
+para.innerHTML=showdate
 header.appendChild(para).style.fontSize="14px"
 
 
-
 let dayOfWeek= date.getDay();
+const ban = document.getElementById("banner")
+if (dayOfWeek >=1 && dayOfWeek <=2) {ban.style.display = "block";}
 
 
-if (dayOfWeek!=1|dayOfWeek != 2){
-    const ban = document.querySelector("banner")
-    ban.style.display="none"
-
-
-}
-//else{
-//    ban.style.display = "block"
 
 
 
