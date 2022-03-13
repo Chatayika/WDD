@@ -3,7 +3,6 @@ const requestURL = 'https://octagonal-colossal-drip.glitch.me/directory.json';
 
 fetch(requestURL).then(function (response) {return response.json();})
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
     const cards = jsonObject['businesscards'];
     cards.forEach(displayCards);
   });
