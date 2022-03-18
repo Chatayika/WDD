@@ -58,6 +58,29 @@
 .seven{
       display:none
 }
+.business{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: auto;
+      grid-gap:5rem;
+      border: 2px solid rgb(2, 2, 78);
+      border-radius: 4px;
+      padding: 5rem;
+
+}
+.business img{
+      visibility: visible;
+}
+
+
+#contacts{
+      width:100%;
+      padding:20px;
+      
+}
+
+
+
 
 
 

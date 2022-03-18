@@ -16,11 +16,14 @@ header.appendChild(para).style.fontSize="14px"
 
 
 let dayOfWeek= date.getDay();
-const ban = document.getElementById("banner")
-if (dayOfWeek >=1 && dayOfWeek <=2) {ban.style.display = "block";}
+if (dayOfWeek >=1 && dayOfWeek <=2) {
+    document.querySelector("#center").textContent ="🤝 Come join us for the chamber meet and greet Wednesdays at 7:00 p.m"
+}
 
 
 
 
 
 
+document.querySelector("#year").textContent = showdate;
+document.getElementById("updated").textContent = `Last Updated: ${document.lastModified}`;
