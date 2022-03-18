@@ -1,4 +1,4 @@
-date = new Date();
+let date = new Date();
 const year = date.getFullYear();
 
 

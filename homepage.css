@@ -3,13 +3,16 @@
  @import url('https://fonts.googleapis.com/css2?family =Merriweather')
 
 
- html{background-color:white}
+ *{background-color:white;
+    padding:0 ;
+    margin: 0;
+}
 
- body {
-    max-width: 50%;
-    margin: 1em auto;
-    background-color:ccc;
-    text-shadow: 3px 3px 5px white;
+main{
+width:50%;
+align-items: center;
+margin-left: 200px;
+
 }
 
      
