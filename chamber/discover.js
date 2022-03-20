@@ -24,3 +24,18 @@ const loadImages = (image) => {
       loadImages(img);
     });
   }
+
+let visit = document.querySelector("#visits");
+
+localStorage.setItem("mytime", Date.now());
+let before = Number(window.localStorage.getItem("mytime"));
+today = Number(Date.now());
+
+
+days = Math.round((today - before)/86400000);
+if (days !== 0) {
+  visit.textContent = `${days} days`;
+}
+else {
+  visit.textContent = `First visit`;
+}
