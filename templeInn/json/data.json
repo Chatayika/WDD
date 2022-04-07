@@ -1,0 +1,66 @@
+{"temple" :
+     [
+    {   "name":"Aba Nigeria Temple",
+        "address":"72-80 Okpu-Umuobo Road",
+        "state":"Aba",
+        "country":"Nigeria",
+        "telephone":"(234) 80-3903-4810",
+        "email":"abanigeria.lds.org",
+        "services":"Distribution center nearby",
+        "history":"Announced: 2 April 2000" ,
+        "ordinanceSchedule":"Groundbreaking: 23 February 2002",
+        "sessionSchedule":"Dedicated: 7 August 2005",
+        "templeClosureSchedule":" Closed:20 August 2022, 5 September 2022 - 2 January 2023",
+        "templeurl":"https://www.churchofjesuschrist.org/temples/aba-nigeria-temple",
+        "imageurl":"images/aba_nigeria_temple_lds (1).webp"
+    },
+    
+
+    {   "name":"Harare Zimbabwe Temple",
+        "address":"16 Enterprise Road",
+        "state":"Harare",
+        "country":"Zimbabwe",
+        "telephone":"(263)7727157840",
+        "email":"hararezimtemple.lds.org",
+        "services":"Distribution center nearby",
+        "history":"Announced: 3 April 2016" ,
+        "ordinanceSchedule":"Groundbreaking: 12 December 2020",
+        "sessionSchedule":"Ordinances must be performed in proper sequence",
+        "templeClosureSchedule":"Closed during construction",
+        "templeurl":"https://www.churchofjesuschrist.org/temples/harare-zimbabwe-temple",
+        "imageurl":"images/harare_zimbabwe_temple_exterior_.webp"
+    },
+
+    {   "name":"Durban South Africa Temple",
+        "address":"2 Izinga Drive",
+        "state":"Durban",
+        "country":"South Africa",
+        "telephone":"(27) 31-140-0240",
+        "email":"durbansatemple.lds.org",
+        "services":"Distribution center nearby",
+        "history":"Announced: 1 October 2011" ,
+        "ordinanceSchedule":"Dedicated: 16 February 2020",
+        "sessionSchedule":"Groundbreaking: April 2016",
+        "templeClosureSchedule":"Closed: Saturday, 9 April 2022 Friday, 15 April 2022",
+        "templeurl":"https://www.churchofjesuschrist.org/temples/durban-south-africa-temple",
+        "imageurl":"images/durban_south_africa_temple_exter.webp "
+    },
+
+
+    {   "name":"Johannesburg South Africa Temple",
+        "address":"7 Jubilee Rd Parktown",
+        "state":"Johannesburg",
+        "country":"South Africa",   
+        "telephone":"(27) 11-645-1540",
+        "email":"mzansitemple.lds.org",
+        "services":"Clothing rental available",
+        "history":"Announced: 1 April 1981" ,
+        "ordinanceSchedule":"Dedicated: 24 August 1985",
+        "sessionSchedule":"Groundbreaking: 27 November 1982",
+        "templeClosureSchedule":"Closed: Saturday, 9 April 2022 Friday, 15 April 2022",
+        "templeurl":"https://www.churchofjesuschrist.org/temples/johannesburg-south-africa-temple",
+        "imageurl":"images/johannesburg_south_africa_temple.webp"
+    }
+    
+    ]
+    }
